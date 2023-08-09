@@ -10,6 +10,9 @@ body{
 
 hr{
     justify-content: center;
+    background-color: var(--dark-theme-text-color);
+    border-style: none;
+    height: 2px;
     max-width: 90%;
 }
 
@@ -22,6 +25,7 @@ hr{
 .__topNav__ a{
     text-decoration: none;
     color: var(--dark-theme-text-color);
+    font-size: 20px;
     margin-right: 10px;
 }
 
