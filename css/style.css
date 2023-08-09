@@ -1,8 +1,32 @@
 :root{
     --dark-theme-background-color: #010D30;
     --dark-theme-text-color: #C8DCFE;
+    --dark-theme-link-color: #ffcc00;
 }
 
 body{
     background-color: var(--dark-theme-background-color);
 }
+
+hr{
+    justify-content: center;
+    max-width: 90%;
+}
+
+/* Start of Top Nav Bar Style */
+
+.__topNav__{
+    margin-left: 5%;
+}
+
+.__topNav__ a{
+    text-decoration: none;
+    color: var(--dark-theme-text-color);
+    margin-right: 10px;
+}
+
+.__topNav__ a:hover{
+    color: var(--dark-theme-link-color);
+}
+
+/* End of Top Nav Bar Style */
