@@ -16,27 +16,28 @@ hr{
     max-width: 90%;
 }
 
-/*           IDs            */
-/* ------------------------ */
-/* Start of Book Icon */
-
-/*End of Book Icon */
-
+/*           CLASSES            */
+/* --------------------------- */
 /* Start of Top Nav Bar Style */
 
 .__topNav__{
+    width: 100%;
     margin-left: 5%;
     display: flex;
     align-items: center;
 }
 
+.__navItem__{
+    margin-right: 12px;
+}
 .__topNav__ a{
     text-decoration: none;
     color: var(--dark-theme-text-color);
     font-size: 20px;
-    margin-right: 10px;
+    
     
 }
+
 
 .__topNav__ a:hover{
     color: var(--dark-theme-link-color);
@@ -45,6 +46,7 @@ hr{
 .__topNav__ #bookIcon{
     top: 30px;
 }
+
 
 /* End of Top Nav Bar Style */
 
