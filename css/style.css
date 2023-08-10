@@ -72,15 +72,31 @@ hr{
 /* End of Top Nav Bar Style */
 
 /* Start of Search Bar Style */
-#__searchBar__{
 
+.__searchBarContainer__{
+    margin-top: 20px;
+    display: flex;
     width: 100%;
-    height: 20px;
+    height: 30px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
     background-color: var(--dark-theme-text-color);
     border-radius: 20px;
-    border-style: none;
-    margin-top: 20px;
+}
 
+.__searchBarContainer__ img{
+    width: 16px;
+    height: 16px;
+}
+
+.__searchBarContainer__ #__searchBar__{
+
+    width: 80%;
+    height: 90%;
+    border: 0;
+    background-color: var(--dark-theme-text-color);
+    border-style: none;
 }
 
 #__searchBar__:focus{
