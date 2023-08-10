@@ -50,3 +50,40 @@ hr{
 
 /* End of Top Nav Bar Style */
 
+/* Start of Banner Style */
+
+.__bannersContainer__ button{
+    color: white;
+    background-color: var(--dark-theme-background-color);
+    border-style: none;
+    font-size: 30px;
+}
+
+.__bannersContainer__ button:hover{
+    color: var(--dark-theme-link-color);
+    cursor: grab;
+}
+
+.__bannersContainer__{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.__bannersContainer__ .__banner__{
+    width: 700px;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.__bannersContainer__ .__banner__:hover{
+
+    width: 710px;
+    border-radius: 20px;
+    transition: 1s;
+}
+/* End of Banner Style */
+
