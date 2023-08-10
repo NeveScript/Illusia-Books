@@ -85,6 +85,10 @@ hr{
     border-radius: 20px;
 }
 
+.__searchBarContainer__:hover{
+    background-color: #9fbcef;
+}
+
 .__searchBarContainer__ img{
     width: 16px;
     height: 16px;
@@ -97,10 +101,16 @@ hr{
     border: 0;
     background-color: var(--dark-theme-text-color);
     border-style: none;
+    margin-left: 8px;
+}
+
+.__searchBarContainer__:hover #__searchBar__{
+    background-color: #9fbcef;
 }
 
 #__searchBar__:focus{
     outline: none;
+    color: var(--dark-theme-background-disable-color);
 }
 /* End of Search Bar Style */
 
