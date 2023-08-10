@@ -1,7 +1,9 @@
 :root{
     --dark-theme-background-color: #010D30;
+    --dark-theme-background-disable-color: #808080;
     --dark-theme-text-color: #C8DCFE;
-    --dark-theme-link-color: #ffcc00;
+    --dark-theme-disable-text-color: #ffffff;
+    --dark-theme-link-color: #fbe600;
 }
 
 *{
@@ -28,7 +30,6 @@ hr{
 
 .__topNav__{
     width: 100%;
-    margin-left: 5%;
     display: flex;
     align-items: center;
 }
@@ -40,10 +41,8 @@ hr{
     text-decoration: none;
     color: var(--dark-theme-text-color);
     font-size: 20px;
-    
-    
+    display: flex;
 }
-
 
 .__topNav__ a:hover{
     color: var(--dark-theme-link-color);
@@ -53,7 +52,23 @@ hr{
     top: 30px;
 }
 
+.__topNav__ .__navDiv__{
+    background-color: var(--dark-theme-background-disable-color);
+    height: 8px;
+    padding: 1%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
+.__topNav__ .__navDiv__ a{
+    color: var(--dark-theme-disable-text-color);
+}
+
+.__topNav__ .__navDiv__ a:hover{
+    color: var(--dark-theme-link-color);
+}
 /* End of Top Nav Bar Style */
 
 /* Start of Search Bar Style */
