@@ -1,5 +1,5 @@
 :root{
-    --dark-theme-background-color: #010D30;
+    --dark-theme-background-color: hsl(225, 96%, 10%);
     --dark-theme-background-disable-color: #808080;
     --dark-theme-text-color: #C8DCFE;
     --dark-theme-disable-text-color: #ffffff;
@@ -34,9 +34,23 @@ hr{
     align-items: center;
 }
 
-.__navItem__{
-    margin-right: 12px;
+.__navItemContainer__{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
+
+.__navItemContainer__ img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.__navItemContainer__:hover img{
+    width: 20px;
+    height: 20px;
+}
+
 .__topNav__ a{
     text-decoration: none;
     color: var(--dark-theme-text-color);
@@ -52,9 +66,9 @@ hr{
     top: 30px;
 }
 
-.__topNav__ .__navDiv__{
+.__topNav__ .__navLoginDiv__{
     background-color: var(--dark-theme-background-disable-color);
-    height: 8px;
+    height: 20px;
     padding: 1%;
     border-radius: 20px;
     justify-content: center;
@@ -62,11 +76,23 @@ hr{
     display: flex;
 }
 
-.__topNav__ .__navDiv__ a{
-    color: var(--dark-theme-disable-text-color);
+.__topNav__ .__navLoginDiv__ img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
 }
 
-.__topNav__ .__navDiv__ a:hover{
+.__topNav__ .__navLoginDiv__:hover img{
+    width: 20px;
+    height: 20px;
+}
+
+.__topNav__ .__navLoginDiv__ a{
+    color: var(--dark-theme-disable-text-color);
+    font-size: 16px;
+}
+
+.__topNav__ .__navLoginDiv__ a:hover{
     color: var(--dark-theme-link-color);
 }
 /* End of Top Nav Bar Style */
