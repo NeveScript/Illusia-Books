@@ -188,6 +188,14 @@ hr{
 
 /* End of Banner Style */
 
+/* Start of New Fiction Section Style */
+.__newFictionsContainer__{
+    max-width: 100%;
+    max-height: 20px;
+}
+
+/* End of New Fiction Section Style */
+
 /* Start of Footer Style */
 .__contactContainer__{
     margin-top: 20px;
