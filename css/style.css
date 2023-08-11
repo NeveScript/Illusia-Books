@@ -188,3 +188,24 @@ hr{
 
 /* End of Banner Style */
 
+/* Start of Footer Style */
+.__contactContainer__{
+    margin-top: 20px;
+    color: var(--dark-theme-disable-text-color);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-theme-background-disable-color);
+    padding: 2%;
+    height: 2px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+}
+
+.__contactContainer__ a{
+    text-decoration: none;
+    color: var(--dark-theme-link-color);
+}
+/* End of Footer Style */
+
