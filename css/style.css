@@ -1,10 +1,14 @@
 :root{
+
     --dark-theme-background-color: hsl(225, 96%, 10%);
     --dark-theme-background-disable-color: #808080;
     --dark-theme-text-color: #C8DCFE;
     --dark-theme-disable-text-color: #ffffff;
     --dark-theme-link-color: #fbe600;
 }
+
+/*           >>> - SELECTORS - <<<            */
+/* ------------------------------------------ */
 
 *{
     margin: 0;
@@ -24,8 +28,8 @@ hr{
     max-width: 100%;
 }
 
-/*           CLASSES            */
-/* --------------------------- */
+/*           >>> - CLASSES - <<<            */
+/* ---------------------------------------- */
 /* Start of Top Nav Bar Style */
 
 .__topNav__{
@@ -174,8 +178,13 @@ hr{
 .__bannersContainer__ .__banner__:hover{
 
     width: 710px;
-    border-radius: 20px;
+    border-radius: 45px;
     transition: 1s;
 }
+
+.__bannersContainer__ .__banner__:not(:hover){
+    transition: 1s;
+}
+
 /* End of Banner Style */
 
