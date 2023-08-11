@@ -200,8 +200,9 @@ hr{
 }
 
 .__newFictionsContainer__ img{
-    width: 150px;
-    height: 200px;
+    width: 45%;
+    height: 100%;
+
 }
 
 /* End of New Fiction Section Style */
