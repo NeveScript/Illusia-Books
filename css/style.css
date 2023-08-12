@@ -189,7 +189,15 @@ hr{
 
 /* End of Banner Style */
 
+/* Start of Sections Title Style */
+.__sectionTitle__{
+    color: var(--dark-theme-text-color);
+}
+
+/* End of Sections Title Style */
+
 /* Start of New Fiction Section Style */
+
 .__newFictionsContainer__{
     margin-top: 20px;
     margin-bottom: 30px;
