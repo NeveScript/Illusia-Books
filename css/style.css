@@ -189,57 +189,10 @@ hr{
 
 /* End of Banner Style */
 
-/* Start of Sections Title Style */
-.__sectionTitle__{
-    color: var(--dark-theme-text-color);
-}
-
-/* End of Sections Title Style */
-
-/* Start of New Fiction Section Style */
-
-.__fictionSectionContainer__{    
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    max-width: 100%;
-    max-height: 210px;
-    overflow-y: hidden;
-  
-    color: var(--dark-theme-text-color);
-}
-
-.__fictionSectionContainer__::-webkit-scrollbar{
-    height: 6px;
-    background-color: var(--dark-theme-text-color);
-    opacity: 30%;
-}
-
-.__fictionSectionContainer__::-webkit-scrollbar-thumb{
-    background-color: var(--dark-theme-background-disable-color);
-}
-
-.__fictionSectionContainer__ .__fictionContainer__{
-    max-width: 150px;
-    margin-right: 1%;
-    justify-content: center;
-    display: block;
-}
-
-
-.__fictionSectionContainer__ img{
-    max-width: 250px;
-    height: 80%;
-
-}
-
-/* End of New Fiction Section Style */
-
-
 /* Start of the Popular Fiction Section Style */
 
 .__popularFictionSectionContainer__{
-    margin-top: 2%;
+    margin-top: 5%;
     max-width: 100%;
     display: flex;
     color: var(--dark-theme-text-color);
@@ -332,6 +285,53 @@ hr{
 }
 
 /* End of the Popular Fiction Section Style */
+
+/* Start of Sections Title Style */
+.__sectionTitle__{
+    color: var(--dark-theme-text-color);
+}
+
+/* End of Sections Title Style */
+
+/* Start of New Fiction Section Style */
+
+.__fictionSectionContainer__{    
+    margin-top: 2%;
+    margin-bottom: 30px;
+    display: flex;
+    max-width: 100%;
+    max-height: 210px;
+    overflow-y: hidden;
+  
+    color: var(--dark-theme-text-color);
+}
+
+.__fictionSectionContainer__::-webkit-scrollbar{
+    height: 6px;
+    background-color: var(--dark-theme-text-color);
+    opacity: 30%;
+}
+
+.__fictionSectionContainer__::-webkit-scrollbar-thumb{
+    background-color: var(--dark-theme-background-disable-color);
+}
+
+.__fictionSectionContainer__ .__fictionContainer__{
+    max-width: 150px;
+    margin-right: 1%;
+    justify-content: center;
+    display: block;
+}
+
+
+.__fictionSectionContainer__ img{
+    max-width: 250px;
+    height: 80%;
+
+}
+
+/* End of New Fiction Section Style */
+
 
 /* Start of Footer Style */
 .__contactContainer__{
