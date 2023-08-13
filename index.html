@@ -8,6 +8,7 @@
     <title>Illusia Books</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
   </head>
 
@@ -20,9 +21,18 @@
       <nav class="__topNav__">
 
         <img class="__navItemContainer__" src="./images/icons/themes/dark/book.png" alt="Book icon" id="__bookIcon__">
-        <div class="__navItemContainer__"><img src="./images/icons/themes/dark/books.png" alt="Books icon"><a href="#">Projects</a></div>
-        <div class="__navItemContainer__"><img src="./images/icons/themes/dark/pen-tool.png" alt="Pen tool icon"><a  href="#">Publish a Book</a></div>
-        <div class="__navLoginDiv__"><a href="#"><img src="./images/icons/themes/dark/user.png" alt="">Login</a></div>
+        <div class="__navItemContainer__">
+          <i class="bi bi-book __navIcon__"></i>
+          <a href="#">Projects</a></div>
+        <div class="__navItemContainer__">
+          
+          <i class="bi bi-vector-pen __navIcon__"></i>
+          <a  href="#">Publish a Book</a></div>
+
+        <div class="__navLoginDiv__">
+          <i class="bi bi-person-circle __loginNavIcon__"></i>
+          <a href="#">Login</a>
+        </div>
 
       </nav>
       <!--End of top nav bar-->
@@ -34,7 +44,7 @@
     <!-- Start of Search Bar-->
     <div class="__searchBarContainer__">
 
-      <img src="./images/icons/themes/dark/loupe.png" alt="Search icon">
+      <i class="bi bi-search" style="color: #808080"></i>
       <input type="text" name="search bar" id="__searchBar__" placeholder="Search">
 
     </div>
