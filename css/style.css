@@ -252,12 +252,28 @@ hr{
     max-height: 100%;
     display: block;
     justify-content: center;
-    background-color: #495b7b;
+    background-image: url("../images/sample-background.jpeg");
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
     align-items: center;
     padding: 1%;
     z-index: -2;
     margin-right: 2%;
+    position: relative; 
+    overflow: hidden;
+}
+
+.__popularFictionSectionContainer__ .__top3PopularFictionSynopsis::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    border-radius: 20px;
 }
 
 .__popularFictionSectionContainer__ .__top3PopularFictionContainer__ .__top3PopularFictionCoverContainer__{
@@ -265,6 +281,7 @@ hr{
     max-height: 300px;
     display: flex;
     position: relative;
+    
     justify-content: center;
 }
 
@@ -273,6 +290,7 @@ hr{
     max-height: 250px;
     position: absolute;
 }
+
 
 #__leftPopularFictionCover__{
     opacity: 50%;
@@ -288,14 +306,14 @@ hr{
 
 #__rightPopularFictionCover__{
 
-    opacity: 50%;
+    opacity: 70%;
     z-index: -1;
     position: absolute;
     right: 0;
 }
 
 .__popularFictionsContainer__{
-    max-width: 50%;
+    max-width: 70%;
     display: flex;
     flex-wrap: wrap;
 
