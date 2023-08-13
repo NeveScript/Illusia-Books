@@ -339,7 +339,7 @@ hr{
 }
 
 .__fictionUpdatesSectionContainer__ .__updatesTable__{
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
 }
 
@@ -349,8 +349,18 @@ hr{
     max-height: 100px;
 }
 
+.__updatesTable__ tr:nth-child(even) {
+    background-color: hsl(225, 65%, 37%);
+}
+
+.__updatesTable__ tr:nth-child(odd) {
+    background-color: hsl(225, 71%, 21%);
+}
+
+
+
 .__updatesTable__ tr td{
-    width: 25%;
+    max-width: 30%;
     margin: 5px;
     
 }
