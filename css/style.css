@@ -196,7 +196,6 @@ hr{
     max-width: 100%;
     display: flex;
     color: var(--dark-theme-text-color);
-    
     margin-bottom: 3%;
 }
 
@@ -332,6 +331,43 @@ hr{
 
 /* End of New Fiction Section Style */
 
+/* Start of Fiction Updates Style */
+
+.__fictionUpdatesSectionContainer__{
+    max-width: 100%;
+    color: var(--dark-theme-text-color);
+}
+
+.__fictionUpdatesSectionContainer__ .__updatesTable__{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.__updatesTable__ tr{
+    display: flex;
+    max-width: auto;
+    max-height: 100px;
+}
+
+.__updatesTable__ tr td{
+    width: 25%;
+    margin: 5px;
+    
+}
+
+.__updatesTable__ tr td .__updatedFictionInfosContainer__{
+    display: block;
+    justify-content: center;
+}
+
+.__updatesTable__ tr td img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+/* End of Fiction Updates Style */
+
+/* Start of Updates Style */
 
 /* Start of Footer Style */
 .__contactContainer__{
