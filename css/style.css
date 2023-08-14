@@ -44,15 +44,17 @@ hr{
     margin-right: 20px;
 }
 
-.__navItemContainer__ img{
-    width: 16px;
-    height: 16px;
+.__navItemContainer__ .__navIcon__{
+    max-width: 16px;
+    max-height: 16px;
     margin-right: 5px;
+    color: var(--dark-theme-text-color);
 }
 
-.__navItemContainer__:hover img{
-    width: 20px;
-    height: 20px;
+.__navItemContainer__:hover .__navIcon__{
+    max-width: 20px;
+    max-height: 20px;
+    color: var(--dark-theme-link-color);
 }
 
 .__topNav__ a{
@@ -80,15 +82,17 @@ hr{
     display: flex;
 }
 
-.__topNav__ .__navLoginDiv__ img{
+.__topNav__ .__navLoginDiv__ .__loginNavIcon__{
     width: 16px;
     height: 16px;
-    margin-right: 8px;
+    margin-right: 4px;
+    color: var(--dark-theme-disable-text-color);
 }
 
-.__topNav__ .__navLoginDiv__:hover img{
+.__topNav__ .__navLoginDiv__:hover .__loginNavIcon__{
     width: 20px;
     height: 20px;
+    color: var(--dark-theme-link-color);
 }
 
 .__topNav__ .__navLoginDiv__ a{
@@ -299,10 +303,10 @@ hr{
     margin-bottom: 30px;
     display: flex;
     max-width: 100%;
-    max-height: 210px;
+    max-height: 310px;
     overflow-y: hidden;
   
-    color: var(--dark-theme-text-color);
+    color: var(--dark-theme-background-color);
 }
 
 .__fictionSectionContainer__::-webkit-scrollbar{
@@ -316,17 +320,68 @@ hr{
 }
 
 .__fictionSectionContainer__ .__fictionContainer__{
-    max-width: 150px;
+    width: 150px;
+    height: 250px;
     margin-right: 1%;
     justify-content: center;
-    display: block;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    overflow: hidden;
+    border: 1px solid var(--dark-theme-text-color);
 }
 
 
 .__fictionSectionContainer__ img{
-    max-width: 250px;
+    width: 100%;
     height: 80%;
 
+}
+
+.__fictionContainer__ .__fictionTitleAndNationContainer__{
+    width: 100%;
+    height: 20%;
+    background-color: var(--dark-theme-disable-text-color);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    
+}
+
+.__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionTitleContainer__{
+    font-size: medium;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+
+.__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionTitleContainer__ .__fictionTitle__{
+    text-decoration: none;
+    color: var(--dark-theme-background-color);
+}
+
+
+.__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionNationalityContainer__ {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionNationalityContainer__ .__fictionNationality__{
+    max-width: 30%;
+    font-size: 12px;
+    background-color: var(--dark-theme-background-color);
+    justify-content: center;
+    display: flex;
+    color: var(--dark-theme-text-color);
+    padding: 2px;
+    border-radius: 20%;
+    
 }
 
 /* End of New Fiction Section Style */
