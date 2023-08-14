@@ -295,10 +295,6 @@ hr{
     height: 70%;
 }
 
-.__popularFictionsContainer__ .__popularFictionContainer__ img{
-    max-width: 75px;
-}
-
 .__popularFictionsContainer__ .__fictionContainer__ .__genreAndTitleContainer__{
     width: 100%;
     height: 30%;
@@ -331,11 +327,12 @@ hr{
 }
 
 .__popularFictionsContainer__ .__fictionContainer__ .__fictionTitleContainer__ {
-    font-size: smaller;
+    font-size: 12px;
     display: flex;
     width: 100%;
     height: 80%;
     justify-content: center;
+    text-align: center;
 }
 
 .__popularFictionsContainer__ .__fictionContainer__ .__fictionTitleContainer__ .__fictionTitle__{
@@ -420,6 +417,7 @@ hr{
 .__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionTitleContainer__ .__fictionTitle__{
     text-decoration: none;
     color: var(--dark-theme-background-color);
+    text-align: center;
 }
 
 
