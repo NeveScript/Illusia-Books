@@ -461,11 +461,11 @@ hr{
 }
 
 .__updatesTable__ tr:nth-child(even) {
-    background-color: hsl(225, 65%, 37%);
+    background-color: var(--dark-theme-background-color);
 }
 
 .__updatesTable__ tr:nth-child(odd) {
-    background-color: hsl(225, 71%, 21%);
+    background-color: hsl(225, 95%, 15%);
 }
 
 
@@ -481,9 +481,23 @@ hr{
     justify-content: center;
 }
 
+.__updatesTable__ tr td .__updatedFictionInfosContainer__ .__updatedFictionChaptersContainer__{
+    display: flex;
+}
+
+.__updatesTable__ tr td .__updatedFictionInfosContainer__ .__updatedFictionChaptersContainer__ a{
+    text-decoration: none;
+    height: 20px;
+    border-top-left-radius: 30%;
+    padding: 4%;
+    margin-right: 2%;
+    background-color: var(--dark-theme-background-disable-color);
+    color: var(--dark-theme-disable-text-color);
+}
+
 .__updatesTable__ tr td img{
-    max-width: 50px;
-    max-height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 /* End of Fiction Updates Style */
