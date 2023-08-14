@@ -275,17 +275,72 @@ hr{
 
 }
 
-.__popularFictionContainer__{
-    max-width: 90px;
+.__popularFictionsContainer__ .__fictionContainer__{
+    width: 100px;
     margin-right: 2%;
     margin-bottom: 2%;
-    display: block;
     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.__popularFictionsContainer__ .__fictionContainer__ img{
+    width: 100%;
+    height: 70%;
 }
 
 .__popularFictionsContainer__ .__popularFictionContainer__ img{
     max-width: 75px;
 }
+
+.__popularFictionsContainer__ .__fictionContainer__ .__genreAndTitleContainer__{
+    width: 100%;
+    height: 30%;
+    background-color: var(--dark-theme-disable-text-color);
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.__popularFictionsContainer__ .__fictionContainer__ .__fictionGenreContainer__{
+    margin-top: 2%;
+    padding: 1%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__popularFictionsContainer__ .__fictionContainer__ .__fictionGenreContainer__ .__fictionGenre__{
+    max-width: 30%;
+    font-size: 9px;
+    background-color: var(--dark-theme-background-color);
+    justify-content: center;
+    display: flex;
+    color: var(--dark-theme-text-color);
+    padding: 2px;
+    border-radius: 20%;
+}
+
+.__popularFictionsContainer__ .__fictionContainer__ .__fictionTitleContainer__ {
+    font-size: smaller;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+}
+
+.__popularFictionsContainer__ .__fictionContainer__ .__fictionTitleContainer__ .__fictionTitle__{
+    text-decoration: none;
+    color: var(--dark-theme-background-color);
+}
+
+
 
 /* End of the Popular Fiction Section Style */
 
@@ -302,6 +357,7 @@ hr{
     margin-top: 2%;
     margin-bottom: 30px;
     display: flex;
+    justify-content: center;
     max-width: 100%;
     max-height: 310px;
     overflow-y: hidden;
@@ -320,8 +376,8 @@ hr{
 }
 
 .__fictionSectionContainer__ .__fictionContainer__{
-    width: 150px;
-    height: 250px;
+    width: 190px;
+    height: 330px;
     margin-right: 1%;
     justify-content: center;
     align-items: center;
