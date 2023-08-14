@@ -33,15 +33,16 @@ hr{
 /* Start of Top Nav Bar Style */
 
 .__topNav__{
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
 }
 
-.__navItemContainer__{
+.__topNav__ .__navItemContainer__{
+    width: 100px;
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .__navItemContainer__ .__navIcon__{
@@ -57,7 +58,8 @@ hr{
     color: var(--dark-theme-link-color);
 }
 
-.__topNav__ a{
+.__topNav__ .__navItemContainer__ a{
+    margin-left: 10px;
     text-decoration: none;
     color: var(--dark-theme-text-color);
     font-size: 20px;
@@ -98,6 +100,7 @@ hr{
 .__topNav__ .__navLoginDiv__ a{
     color: var(--dark-theme-disable-text-color);
     font-size: 16px;
+    margin-left: 4%;
 }
 
 .__topNav__ .__navLoginDiv__ a:hover{
