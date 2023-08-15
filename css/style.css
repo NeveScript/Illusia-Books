@@ -487,8 +487,13 @@ hr{
 }
 
 .__updatesTable__ tr td .__updatedFictionInfosContainer__ .__updatedFictionChaptersContainer__ a{
+    display: flex;
+    text-align: center;
+    width: 13px;
+    font-size: 13px;
     text-decoration: none;
     height: 10px;
+    text-align: center;
     border-top-left-radius: 30%;
     padding: 4%;
     margin-right: 2%;
