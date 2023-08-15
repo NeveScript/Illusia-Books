@@ -395,7 +395,7 @@ hr{
 
 }
 
-.__fictionContainer__ .__fictionTitleAndNationContainer__{
+.__fictionSectionContainer__ .__fictionContainer__ .__fictionTitleAndNationContainer__{
     width: 100%;
     height: 15%;
     background-color: var(--dark-theme-disable-text-color);
@@ -489,6 +489,7 @@ hr{
 .__updatesTable__ tr td .__updatedFictionInfosContainer__ .__updatedFictionChaptersContainer__ a{
     display: flex;
     text-align: center;
+    justify-content: center;
     width: 13px;
     font-size: 13px;
     text-decoration: none;
