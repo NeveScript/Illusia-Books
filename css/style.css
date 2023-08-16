@@ -240,7 +240,6 @@ hr{
     max-height: 300px;
     display: flex;
     position: relative;
-    
     justify-content: center;
 }
 
@@ -269,6 +268,11 @@ hr{
     z-index: -1;
     position: absolute;
     right: 0;
+}
+
+
+.__popularFictionSectionContainer__ .__top3PopularFictionContainer__ .__top3PopularFictionTitle__, .__popularFictionSectionContainer__ .__top3PopularFictionContainer__ .__top3PopularFictionGenres, .__popularFictionSectionContainer__ .__top3PopularFictionContainer__ .__top3PopularFictionSynopsis {
+    margin-top: 3%;
 }
 
 .__popularFictionsContainer__{
