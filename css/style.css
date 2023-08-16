@@ -577,3 +577,53 @@ hr{
 }
 /* End of Footer Style */
 
+/* MEDIA QUERIES */
+/* ---------------------------------- */
+
+/* 767px */
+@media screen and (max-width: 767px) {
+   
+    /* Start of the Popular Fiction Section Style */
+
+    .__popularFictionSectionContainer__{
+        margin-top: 5%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        color: var(--dark-theme-text-color);
+        margin-bottom: 3%;
+    }
+
+    .__popularFictionSectionContainer__ .__top3PopularFictionContainer__{
+        max-width: 100%;
+        margin-bottom: 5%;
+       
+    }
+
+
+    .__popularFictionsContainer__{
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+
+    /* End of the Popular Fiction Section Style */
+
+    .__contactContainer__{
+        margin-top: 20px;
+        max-width: 100%;
+        height: 5%;
+        color: var(--dark-theme-disable-text-color);
+        align-items: center;
+        justify-content: center;
+        background-color: var(--dark-theme-background-disable-color);
+        padding: 1%;
+        display: flex;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        font-size: 20px;
+    }
+
+}
