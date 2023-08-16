@@ -39,7 +39,7 @@ hr{
 }
 
 .__topNav__ .__navItemContainer__{
-    width: 100px;
+    max-width: 30%;
     display: flex;
     align-items: center;
     margin-right: 2%;
@@ -48,7 +48,7 @@ hr{
 .__navItemContainer__ .__navIcon__{
     max-width: 16px;
     max-height: 16px;
-    margin-right: 5px;
+    margin-right: 3px;
     color: var(--dark-theme-text-color);
 }
 
@@ -82,6 +82,11 @@ hr{
     justify-content: center;
     align-items: center;
     display: flex;
+    
+}
+
+.__topNav__ .__navLoginDiv__ a{
+    text-decoration: none;
 }
 
 .__topNav__ .__navLoginDiv__ .__loginNavIcon__{
@@ -178,7 +183,7 @@ hr{
 }
 
 .__bannersContainer__ .__banner__{
-    max-width: 95%;
+    max-width: 85%;
     max-height: 100%;
     border-radius: 50px;
 }
