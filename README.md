@@ -1,5 +1,6 @@
 # Illusia Books 📚
-![image](https://github.com/NeveScript/Illusia-Books/assets/123518676/82734eac-fd7b-4625-80dd-a382d2113289)
+![image](https://github.com/NeveScript/Illusia-Books/assets/123518676/8ae0851b-b7b8-4427-b5d5-a6753f6847aa)
+
 
 ### 🔎 About:
 > Illusia Books is a website that allows the posting of original books of the most varied genres, such as fantasy, comedy, romance and among others. Featured projects are displayed on banners, which are updated every month.
