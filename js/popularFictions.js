@@ -18,22 +18,28 @@ function changeCenterPopularFiction(){
 
     console.log(centerCover.src);
    
+    console.log(centerCover.src.endsWith('another-sample-cover.jpg'));
 
-    if(centerCover.src === 'http://127.0.0.1:81/images/sample-cover.jpg'){
-        title.innerText = 'Return of the Frozen Player';
-        genres.innerHTML = 'Fantasy, Action, Game';
-        synopsis.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vero ad illo omnis adipisci vitae impedit. Quia quaerat reiciendis alias voluptatum odit aut corrupti eligendi maxime mollitia tenetur? Obcaecati, architecto.';
-        return;
-  
-    } else if(centerCover.src === 'http://127.0.0.1:81/images/another-sample-cover.jpg'){
+    if(centerCover.src.endsWith('another-sample-cover.jpg')){
       title.innerText = 'The Rising of the Shield Hero';
       genres.innerHTML = 'Fantasy, Isekai, LitRPG, Adventure';
       synopsis.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rem tempora nihil beatae ratione, placeat accusamus quod, dolorum excepturi, reprehenderit odit? Itaque quia facilis excepturi ex incidunt nihil animi voluptatum.';
+      
+      return;
+  
+    } else if(centerCover.src.endsWith('other-sample-cover.jpg')){
+
+      title.innerText = "The King's Avatar";
+      genres.innerHTML = 'Game, Action, Adventure';
+      synopsis.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos asperiores officiis tempore laboriosam non ex repudiandae, corporis consectetur ipsam pariatur nemo, voluptatibus hic dolor rerum! Eius odit fugit ex?';
+
       return;
     }  
 
-    title.innerText = "The King's Avatar";
-    genres.innerHTML = 'Game, Action, Adventure';
-    synopsis.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos asperiores officiis tempore laboriosam non ex repudiandae, corporis consectetur ipsam pariatur nemo, voluptatibus hic dolor rerum! Eius odit fugit ex?';
+    title.innerText = 'Return of the Frozen Player';
+    genres.innerHTML = 'Fantasy, Action, Game';
+    synopsis.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vero ad illo omnis adipisci vitae impedit. Quia quaerat reiciendis alias voluptatum odit aut corrupti eligendi maxime mollitia tenetur? Obcaecati, architecto.';
+     
 
+    
   }
