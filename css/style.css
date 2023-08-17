@@ -582,7 +582,7 @@ hr{
 
 /* 767px */
 @media screen and (max-width: 767px) {
-   
+ 
     /* Start of the Popular Fiction Section Style */
 
     .__popularFictionSectionContainer__{
@@ -597,15 +597,21 @@ hr{
     .__popularFictionSectionContainer__ .__top3PopularFictionContainer__{
         max-width: 100%;
         margin-bottom: 5%;
-       
+       display: none;
     }
 
 
     .__popularFictionsContainer__{
+        overflow: hidden;
+        justify-content: center;
         max-width: 100%;
         display: flex;
         flex-wrap: wrap;
     
+    }
+
+    .__popularFictionsContainer__ .__hiddenFiction__{
+        display: none !important;
     }
     
 
