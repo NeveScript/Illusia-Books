@@ -7,8 +7,8 @@ function changeCenterPopularFiction(){
     var rightCover = document.querySelector("img#__rightPopularFictionCover__");
 
     var title = document.querySelector("h3.__top3PopularFictionTitle__");
-    var genres = document.querySelector("p.__top3PopularFictionSynopsis");
-    var synopsis = document.querySelector("p.__top3PopularFictionGenres");
+    var genres = document.querySelector("p.__top3PopularFictionGenres");
+    var synopsis = document.querySelector("p.__top3PopularFictionSynopsis");
 
     var temp = centerCover.src;
 
@@ -34,6 +34,6 @@ function changeCenterPopularFiction(){
 
     title.innerText = "The King's Avatar";
     genres.innerHTML = 'Game, Action, Adventure';
-    synopsis.innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos asperiores officiis tempore laboriosam non ex repudiandae, corporis consectetur ipsam pariatur nemo, voluptatibus hic dolor rerum! Eius odit fugit ex?';
+    synopsis.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dignissimos asperiores officiis tempore laboriosam non ex repudiandae, corporis consectetur ipsam pariatur nemo, voluptatibus hic dolor rerum! Eius odit fugit ex?';
 
   }
