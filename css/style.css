@@ -15,6 +15,10 @@
     font-family: "Ubuntu Mono", monospace;
 }
 
+header{
+    max-width: 1300px;
+
+}
 body{
     background-color: var(--dark-theme-background-color);
     padding: 2%;
@@ -34,9 +38,10 @@ hr{
 /* Start of Top Nav Bar Style */
 
 .__topNav__{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 .__topNav__ .__navItemContainer__{
@@ -236,7 +241,8 @@ hr{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 01) 30%, transparent) 100%; 
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.91) 50%, transparent) 100%; 
+   /* background: linear-gradient(to bottom, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.95)); */
     z-index: -1;
     border-radius: 20px;
 }
