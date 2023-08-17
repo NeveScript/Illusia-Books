@@ -12,6 +12,7 @@
 
 *{
     margin: 0;
+    font-family: "Consolas", monospace;
 }
 
 body{
@@ -369,7 +370,6 @@ hr{
     max-width: 100%;
     max-height: 310px;
     overflow-y: hidden;
-    overflow-x: scroll;
     color: var(--dark-theme-background-color);
 }
 
@@ -478,8 +478,6 @@ hr{
     background-color: hsl(225, 95%, 15%);
 }
 
-
-
 .__updatesTable__ tr td{
     max-width: 30%;
     margin: 5px;
@@ -502,7 +500,7 @@ hr{
     width: 13px;
     font-size: 13px;
     text-decoration: none;
-    height: 10px;
+
     text-align: center;
     border-top-left-radius: 30%;
     padding: 4%;
@@ -584,6 +582,16 @@ hr{
 /* 767px */
 @media screen and (max-width: 767px) {
  
+    /* Start of the Nav Bar Style */
+    .__topNav__ .__navItemContainer__ a{
+        margin-left: 2%;
+        text-decoration: none;
+        color: var(--dark-theme-text-color);
+        font-size:small;
+        display: flex;
+    }
+    /* End of the Nav Bar Style */
+
     /* Start of the Popular Fiction Section Style */
 
     .__popularFictionSectionContainer__{
@@ -598,7 +606,7 @@ hr{
     .__popularFictionSectionContainer__ .__top3PopularFictionContainer__{
         max-width: 100%;
         margin-bottom: 5%;
-       display: none;
+        display: none;
     }
 
 
