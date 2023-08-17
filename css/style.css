@@ -400,6 +400,7 @@ body{
 }
 
 .__fictionSectionContainer__ .__fictionContainer__{
+    position: relative;
     min-width: 110px;
     width: 190px;
     max-height: 330px;
@@ -447,11 +448,13 @@ body{
 
 
 .__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionNationalityContainer__ {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+ 
 }
 
 .__fictionContainer__ .__fictionTitleAndNationContainer__ .__fictionNationalityContainer__ .__fictionNationality__{
