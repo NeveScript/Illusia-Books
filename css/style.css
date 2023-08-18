@@ -28,7 +28,6 @@ body{
 
 /*           >>> - CLASSES - <<<            */
 /* ---------------------------------------- */
-/* Start of Top Nav Bar Style */
 
 .divider{
 
@@ -42,6 +41,7 @@ body{
     
 }
 
+/* Start of Top Nav Bar Style */
 .__topNav__{
     width: 100%;
     display: flex;
@@ -79,10 +79,6 @@ body{
 
 .__topNav__ a:hover{
     color: var(--dark-theme-link-color);
-}
-
-.__topNav__ #bookIcon{
-    top: 30px;
 }
 
 .__topNav__ .__navLoginDiv__{
