@@ -297,6 +297,7 @@ body{
 
 .__popularFictionsContainer__ .__fictionContainer__{
     width: 100px;
+    height: 180px;
     margin-right: 2%;
     margin-bottom: 2%;
     justify-content: center;
