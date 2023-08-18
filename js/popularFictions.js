@@ -2,14 +2,14 @@
 
 function getBanners(){
 
-  var url = 'https://script.google.com/macros/s/AKfycbyePitxShOm4o20mZC7W5Gh0AVUwoILJu8jiAYsCbRkSHGMI8poFrjIq-pgiGKkUI-TDA/exec';
+  var url = 'https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbySlWulbTnUyhKsUBrTf58mEagOP5i2zrzUQdqNCRu6igFx2-HSWU03abzbw2VZKcsw/exec';
   var param = '?banners';
 
   fetch(url.concat(param), {
     method : 'GET',
-    mode : 'no-cors'
+    mode : 'cors'
   })
-    .then(res =>{ res.json(); console.log(res);})
+    .then(res => res.json())
     .then(data => {
         console.log(data)
       var banner = document.querySelector('div.__banner__');
