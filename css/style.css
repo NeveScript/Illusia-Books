@@ -57,8 +57,8 @@ body{
 }
 
 .__navItemContainer__ .__navIcon__{
-    max-width: 16px;
-    max-height: 16px;
+    max-width: 18px;
+    max-height: 18px;
     margin-right: 3px;
     color: var(--dark-theme-text-color);
 }
@@ -337,14 +337,15 @@ body{
 }
 
 .__popularFictionsContainer__ .__fictionContainer__ .__fictionGenreContainer__ .__fictionGenre__{
-    max-width: 30%;
     font-size: 9px;
     background-color: var(--dark-theme-background-color);
     justify-content: center;
     display: flex;
     color: var(--dark-theme-text-color);
     padding: 2px;
-    border-radius: 20%;
+    border-radius: 5%;
+    padding: 4%;
+    margin-bottom: 16px;
 }
 
 .__popularFictionsContainer__ .__fictionContainer__ .__fictionTitleContainer__ {
