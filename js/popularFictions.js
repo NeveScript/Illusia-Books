@@ -1,3 +1,30 @@
+
+
+function getBanners(){
+
+  var url = 'https://script.google.com/macros/s/AKfycbyePitxShOm4o20mZC7W5Gh0AVUwoILJu8jiAYsCbRkSHGMI8poFrjIq-pgiGKkUI-TDA/exec';
+  var param = '?banners';
+
+  fetch(url.concat(param), {
+    method : 'GET',
+    mode : 'no-cors'
+  })
+    .then(res =>{ res.json(); console.log(res);})
+    .then(data => {
+        console.log(data)
+      var banner = document.querySelector('div.__banner__');
+
+      banner.src = data[1].link;
+
+    })
+    .catch(error => {
+      console.log(error);
+    });
+}
+
+getBanners();
+
+
 const intervalId = setInterval(changeCenterPopularFiction, 3000);
 
 function changeCenterPopularFiction(){
