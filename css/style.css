@@ -222,10 +222,11 @@ body{
 }
 
 .__top5SectionContainer__ .__totalTop5TitleContainer__{
-    color: var(--dark-theme-disable-text-color);
+    color: var(--dark-theme-background-color);
     background-color: var(--dark-theme-text-color);
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    border-top: 50%;
     width: 50%;
     justify-content: center;
     display: flex;
@@ -233,13 +234,13 @@ body{
 
 .__top5SectionContainer__ .__monthlyTop5TotalContainer__{
     color: var(--dark-theme-text-color);
+    border-bottom: 1px solid var(--dark-theme-text-color);
     width: 50%;
     justify-content: center;
     display: flex;
 }
 
 .__top5SectionContainer__ .__totalTop5TotalTypeTitle__{
-
     margin-top: 1%;
     width: 50%;
     display: flex;
@@ -255,7 +256,6 @@ body{
 
 .__top5FictionContainer__ .__top5FictionTranslationsContainer__{
     width: 50%;
-
     display: flex;
     flex-wrap: wrap;
 }
@@ -280,7 +280,6 @@ body{
     width: 90px;
     height: 110px;
     margin-right: 2%;
-    border: 1px solid red;
 }
 
 .__top5Fiction__ .__top5FictionCover__ img{
