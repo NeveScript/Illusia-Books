@@ -255,7 +255,7 @@ body{
 
 .__top5FictionContainer__ .__top5FictionTranslationsContainer__{
     width: 50%;
-    height: 550px;
+
     display: flex;
     flex-wrap: wrap;
 }
