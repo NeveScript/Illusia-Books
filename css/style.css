@@ -212,10 +212,12 @@ body{
 /* Start of the Top 5 fiction Style*/
 .__top5SectionContainer__{
     max-width: 1300px;
+    height: auto;
     margin: auto;
     border: 1px solid var(--dark-theme-text-color);
     display: flex;
     flex-wrap: wrap;
+
 
 }
 
@@ -253,14 +255,71 @@ body{
 
 .__top5FictionContainer__ .__top5FictionTranslationsContainer__{
     width: 50%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .__top5FictionContainer__ .__top5FictionOriginalContainer__{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.__top5Fiction__ img{
-    width: 30%;
+.__top5Fiction__{
+    padding: 2%;
+    margin-top: 2%;
+    width: 100%;
+    height: 120px;
+    color: var(--dark-theme-text-color);
+    display: flex;
+    
+}
+
+.__top5Fiction__ .__top5FictionCover__{
+    width: 90px;
+    height: 110px;
+    margin-right: 2%;
+    border: 1px solid red;
+}
+
+.__top5Fiction__ .__top5FictionCover__ img{
+    width: 100%;
+    height: 100%;
+}
+
+.__top5Fiction__ .__top5FictionInfos__{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionTitleContainer__{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__ p{
+    margin-right: 2%;
+    color: var(--dark-theme-disable-text-color);
+    background-color: var(--dark-theme-background-disable-color);
+    border-radius: 5%;
+    padding: 2%;
 }
 
 /* End of the Top 5 fiction Style*/
