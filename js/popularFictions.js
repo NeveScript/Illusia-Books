@@ -11,10 +11,12 @@ function getBanners(){
   })
     .then(res =>{ res.json(); console.log(res);})
     .then(data => {
-        console.log(data)
+      
+      console.log(data)
       var banner = document.querySelector('div.__banner__');
 
-      banner.src = data[1].link;
+      var d = data || [];
+      banner.src = d[0].link;
 
     })
     .catch(error => {
