@@ -678,12 +678,29 @@ body{
 /* Start of Footer Style */
 
 .footer{
+    color: var(--dark-theme-text-color);
     max-width: 1300px;
     margin: auto;
+
 }
 
+
+#__footerSections__{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+.__resourcesList__{
+    list-style: none;
+}
+
+.__resourcesList__ li{
+    margin-bottom: 10px;
+} 
+
 .__socialSectionContainer__{
-    margin-top: 3%;
     max-width: 100%;
 
 }
@@ -697,12 +714,12 @@ body{
 
 .__socialSectionContainer__ .__socialContainer__ .__socialItem__ {
     display: flex;
-    margin-bottom: 1%;
+    margin-bottom: 10px;
 }
 
 
 .__socialSectionContainer__ .__socialContainer__ .__socialItem__ i{
-    color: var(--dark-theme-text-color);
+
     margin-right: 1%;
     
 }
