@@ -268,17 +268,17 @@ body{
 
 .__top5Fiction__{
     padding: 2%;
-    margin-top: 2%;
+    margin-top: 0.3%;
     width: 100%;
-    height: 120px;
+    height: 70px;
     color: var(--dark-theme-text-color);
     display: flex;
     
 }
 
 .__top5Fiction__ .__top5FictionCover__{
-    width: 90px;
-    height: 110px;
+    width: 48px;
+    height: 64px;
     margin-right: 2%;
 }
 
@@ -288,6 +288,7 @@ body{
 }
 
 .__top5Fiction__ .__top5FictionInfos__{
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -308,17 +309,20 @@ body{
 
 .__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__{
     width: 100%;
-    height: 30%;
+    height: 3%;
     display: flex;
     align-items: center;
 }
 
 .__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__ p{
+    height: 100%;
     margin-right: 2%;
     color: var(--dark-theme-disable-text-color);
     background-color: var(--dark-theme-background-disable-color);
     border-radius: 5%;
     padding: 2%;
+    display: flex;
+    align-items: center;
 }
 
 /* End of the Top 5 fiction Style*/
