@@ -307,6 +307,27 @@ body{
     align-items: center;
 }
 
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionViews__, .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__{
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionViews__ img{
+    width: 16px;
+    height: 16px;
+    margin-right: 1%;
+}
+
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__ p{
+    margin-right: 3px;
+}
+.__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__ i{
+  
+    margin-left: 1%;
+}
+
 .__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__{
     width: 100%;
     height: 3%;
@@ -363,7 +384,6 @@ body{
     width: 100%;
     height: 100%;
    background: linear-gradient(to top, rgba(0, 0, 0, 0.91) 50%, transparent) 100%; 
-   /* background: linear-gradient(to bottom, rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.95)); */
     z-index: -1;
     border-radius: 20px;
 }
