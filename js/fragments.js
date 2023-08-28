@@ -1,7 +1,7 @@
 
 function loadHeader(){
 
-    fetch('../fragments/header.txt')
+    fetch('../fragments/header.html')
         .then(response => response.text())
         .then(content => {
 
