@@ -2,26 +2,49 @@
 
 function getBanners(){
 
-  var url = 'https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbySlWulbTnUyhKsUBrTf58mEagOP5i2zrzUQdqNCRu6igFx2-HSWU03abzbw2VZKcsw/exec';
-  var param = '?banners';
+  //var uri = 'https://api.waifu.pics/sfw/smile';
+  var host = 'https://dcd9-2804-910-1bb-6f00-5957-715b-2088-59aa.ngrok-free.app';
+  var uri = '/api/v1';
+  var resource = '/banners';
+  var url = host.concat(uri).concat(resource);
 
-  fetch(url.concat(param), {
-    method : 'GET',
-    mode : 'cors'
+  fetch(url)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`Erro na requisição: ${response.status} ${response.statusText}`);
+    }
+    return response.json(); 
   })
-    .then(res => res.json())
+  .then(data => {
+
+    console.log(data);
+    //var banner = document.querySelector('img.__banner__');
+    //banner.src = data.url;
+    
+    //banner.src = data.url;
+  })
+  .catch(error => {
+    console.error('Erro:', error);
+  });
+
+  /*fetch(uri.concat(resource)
+    .then(res => {
+      console.log(res);
+      return res.json();
+    } )
     .then(data => {
       
-      console.log(data)
+      console.log("Dados: " + data)
       var banner = document.querySelector('div.__banner__');
 
       var d = data || [];
-      banner.src = d[0].link;
+      banner.src = d[1].url;
+      banner.alt = d[1].description;
 
     })
     .catch(error => {
       console.log(error);
-    });
+    });*/
 }
 
 getBanners();
@@ -44,10 +67,6 @@ function changeCenterPopularFiction(){
     centerCover.src = leftCover.src;
     leftCover.src = rightCover.src;
     rightCover.src = temp;
-
-    console.log(centerCover.src);
-   
-    console.log(centerCover.src.endsWith('another-sample-cover.jpg'));
 
     if(centerCover.src.endsWith('another-sample-cover.jpg')){
       title.innerText = 'The Rising of the Shield Hero';
