@@ -833,6 +833,127 @@ body{
     }
     /* End of the Nav Bar Style */
 
+    /* Start of the Top 5 fiction Style*/
+
+    .__top5SectionContainer__ .__monthlyTop5TotalContainer__{
+        color: var(--dark-theme-text-color);
+        border-bottom: 1px solid var(--dark-theme-text-color);
+        width: 50%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .__top5SectionContainer__ .__totalTop5TotalTypeTitle__{
+        margin-top: 1%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: var(--dark-theme-text-color);
+    }
+
+
+    .__top5FictionContainer__{
+        width: 100%;
+        display: flex;
+    }
+
+    .__top5FictionContainer__ .__top5FictionTranslationsContainer__{
+        max-width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .__top5FictionContainer__ .__top5FictionOriginalContainer__{
+        max-width: 50%;
+    }
+
+    .__top5Fiction__{
+        padding: 2%;
+        margin-top: 0.3%;
+        width: 100%;
+        max-height: 70px;
+        color: var(--dark-theme-text-color);
+        display: flex;
+        
+    }
+
+    .__top5Fiction__ .__top5FictionCover__{
+        max-width: 30%;
+        max-height: 64px;
+        margin-right: 2%;
+    }
+
+    .__top5Fiction__ .__top5FictionCover__ img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__{
+        max-width: 70%;
+        max-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionTitleContainer__{
+        width: 100%;
+        height: 30%;
+        font-size: x-small;
+        display: flex;
+        align-items: center;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__{
+        max-width: 100%;
+        max-height: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionViews__, .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__{
+        display: flex;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        font-size: x-small;
+        align-items: center;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionViews__ img{
+        width: 16px;
+        height: 16px;
+        margin-right: 1%;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__ p{
+        margin-right: 1%;
+    }
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionViewsAndStarsContainer__ .__top5FictionStars__ i{
+    
+        margin-left: 1%;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__{
+        width: 100%;
+        height: 3%;
+        display: flex;
+        align-items: center;
+    }
+
+    .__top5Fiction__ .__top5FictionInfos__ .__top5FictionGenresContainer__ p{
+        max-width: 25%;
+        height: 80%;
+        margin-right: 2%;
+        color: var(--dark-theme-disable-text-color);
+        background-color: var(--dark-theme-background-disable-color);
+        border-radius: 5%;
+        padding: 2%;
+        font-size: x-small;
+        display: flex;
+        align-items: center;
+    }
+
+    /* End of the Top 5 fiction Style*/
+
     /* Start of the Popular Fiction Section Style */
 
     .__popularFictionSectionContainer__{
