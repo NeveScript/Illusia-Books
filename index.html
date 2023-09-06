@@ -19,24 +19,33 @@
 
     <!-- Start of the header -->
     <header class="__parentHeader__">
+      
       <!--Start of top nav bar-->
-      <nav class="__topNav__">
+      <nav class="__topNavMenu__">
 
+
+        <!-- >>> MENU <<< -->
         
-        <div class="__navItemContainer__">
-          <i class="bi bi-book __navIcon__"></i>
-          <a href="./pages/projects.html" target="_blank">Projects</a>
-        </div>
-        <div class="__navItemContainer__">
-          
-          <i class="bi bi-vector-pen __navIcon__"></i>
-          <a  href="#">Publish a Book</a>
-        </div>
+        <ul id="__menu__">
 
-        <div class="__navLoginDiv__">
-          <i class="bi bi-person-circle __loginNavIcon__"></i>
-          <a href="#">Login</a>
-        </div>
+          <li class="__menuItem__">
+            <i class="bi bi-book __menuItemIcon__"></i>
+            <a href="./pages/projects.html" target="_blank">Projects</a>
+          </li>
+  
+          <li class="__menuItem__">
+            
+            <i class="bi bi-vector-pen __menuItemIcon__"></i>
+            <a  href="#">Publish a Book</a>
+
+          </li>
+
+          <li id="__menuLoginItem__">
+            <i class="bi bi-person-circle __menuItemIcon__"></i>
+            <a href="#">Login</a>
+          </li>
+
+        </ul>
 
       </nav>
       <!--End of top nav bar-->
@@ -1004,9 +1013,9 @@
         <section id="__resourcesContainer__">
 
           <ul class="__resourcesList__">
-            <li><a>Publish a Book</a></li>
-            <li><a>Terms of Service</a></li>
-            <li><a>Privacy Policy</a></li>
+            <li><a href="#">Publish a Book</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
           </ul>
         </section>
 
