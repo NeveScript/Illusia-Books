@@ -49,84 +49,100 @@ body{
     
 }
 
+/* -------------------------- */
 /* Start of Top Nav Bar Style */
-.__topNav__{
+/* -------------------------- */
+
+
+.__topNavMenu__{
+
     width: 100%;
-    height: 100px;
-    display: flex;
     align-items: center;
     
 }
 
-.__topNav__ .__navItemContainer__{
+#__menu__{
+    max-width: 100%;
+    display: flex;
+}
+
+.__topNavMenu__ #__menu__ .__menuItem__ {
+
     max-width: 30%;
     display: flex;
     align-items: center;
     margin-right: 2%;
 }
 
-.__navItemContainer__ .__navIcon__{
+.__menuItem__ .__menuItemIcon__{
+
     max-width: 18px;
     max-height: 18px;
     margin-right: 3px;
     color: var(--dark-theme-text-color);
+    
 }
 
-.__navItemContainer__:hover .__navIcon__{
+.__menuItem__:hover .__menuItemIcon__{
     max-width: 20px;
     max-height: 20px;
     color: var(--dark-theme-link-color);
 }
 
-.__topNav__ .__navItemContainer__ a{
+.__topNavMenu__ #__menu__ .__menuItem__ a{
+
+    color: var(--dark-theme-text-color);
+    text-decoration: none;
     margin-left: 10px;
     text-decoration: none;
-    color: var(--dark-theme-text-color);
+    
     font-size: 20px;
     display: flex;
 }
 
-.__topNav__ a:hover{
+.__topNavMenu__ #__menu__ .__menuItem__ a:hover{
     color: var(--dark-theme-link-color);
 }
 
-.__topNav__ .__navLoginDiv__{
+.__topNavMenu__ #__menu__ #__menuLoginItem__{
     background-color: var(--dark-theme-background-disable-color);
+    width: 20%;
     height: 20px;
     padding: 1%;
-    border-radius: 20px;
+    border-radius: 15%;
     justify-content: center;
     align-items: center;
     display: flex;
     
 }
 
-.__topNav__ .__navLoginDiv__ a{
+.__topNavMenu__ #__menu__ #__menuLoginItem__ a{
     text-decoration: none;
 }
 
-.__topNav__ .__navLoginDiv__ .__loginNavIcon__{
+.__topNavMenu__ #__menu__ #__menuLoginItem__{
     width: 16px;
     height: 16px;
     margin-right: 4px;
     color: var(--dark-theme-disable-text-color);
 }
 
-.__topNav__ .__navLoginDiv__:hover .__loginNavIcon__{
+.__topNavMenu__ #__menu__ #__menuLoginItem__:hover .__menuItemIcon__{
     width: 20px;
     height: 20px;
     color: var(--dark-theme-link-color);
 }
 
-.__topNav__ .__navLoginDiv__ a{
+.__topNavMenu__ #__menu__ #__menuLoginItem__ a{
     color: var(--dark-theme-disable-text-color);
     font-size: 16px;
     margin-left: 4%;
 }
 
-.__topNav__ .__navLoginDiv__ a:hover{
+.__topNavMenu__ #__menu__ #__menuLoginItem__ a:hover{
     color: var(--dark-theme-link-color);
 }
+
 /* End of Top Nav Bar Style */
 
 /* Start of the Notification Container Style */
@@ -803,13 +819,6 @@ body{
 }
 
 
-.__resourcesList__{
-    list-style: none;
-}
-
-.__resourcesList__ li{
-    margin-bottom: 10px;
-} 
 
 .__socialSectionContainer__{
     max-width: 100%;
@@ -858,6 +867,23 @@ body{
 .__contactContainer__ a{
     height: 50%;
     text-decoration: none;
+    color: var(--dark-theme-link-color);
+}
+
+
+.__resourcesList__{
+    list-style: none;
+}
+
+.__resourcesList__ li{
+    margin-bottom: 10px;
+} 
+
+.__resourcesList__ li a{
+    text-decoration: none;
+    color: var(--dark-theme-text-color);
+}
+.__resourcesList__ li a:hover{
     color: var(--dark-theme-link-color);
 }
 /* End of Footer Style */
