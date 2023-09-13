@@ -3,6 +3,9 @@
 /* Nunito Sans: */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
 
+/* Sedgwick Ave */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
 /*           >>> - ROOT - <<<            */
 /* ------------------------------------------ */
 :root{
@@ -25,6 +28,7 @@
 header{
     max-width: 1300px;
     margin: auto;
+    
 
 }
 body{
@@ -53,25 +57,45 @@ body{
 /* Start of Top Nav Bar Style */
 /* -------------------------- */
 
-
-.__topNavMenu__{
-
+.__header__{
+    max-width: 1300px;
+    margin: auto;
+}
+.__header__ .__topNavMenu__{
     width: 100%;
+    
+    background-color: var(--dark-theme-background-color);
+    display: flex-wrap;
     align-items: center;
+    justify-content: center;
     
 }
 
 #__menu__{
     max-width: 100%;
+    max-height: 10%;
     display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.__topNavMenu__ #__menu__ .__menuItem__ .__illusiaLogo__{
+
+    color: var(--dark-theme-text-color);
+    font-family: Sedgwick Ave Display;
+
+}
+
+.__topNavMenu__ #__menu__ .__menuItem__ .__illusiaLogo__:hover{
+    cursor: default;
 }
 
 .__topNavMenu__ #__menu__ .__menuItem__ {
-
     max-width: 30%;
     display: flex;
     align-items: center;
     margin-right: 2%;
+    margin-bottom: 1%;
 }
 
 .__menuItem__ .__menuItemIcon__{
@@ -89,13 +113,13 @@ body{
     color: var(--dark-theme-link-color);
 }
 
+
 .__topNavMenu__ #__menu__ .__menuItem__ a{
 
     color: var(--dark-theme-text-color);
     text-decoration: none;
     margin-left: 10px;
     text-decoration: none;
-    
     font-size: 20px;
     display: flex;
 }
@@ -105,14 +129,14 @@ body{
 }
 
 .__topNavMenu__ #__menu__ #__menuLoginItem__{
+    max-width: 30%;
+    padding: 0.5%;
+    border-radius: 10%;
+    margin-bottom: 1%;
     background-color: var(--dark-theme-background-disable-color);
-    width: 20%;
-    height: 20px;
-    padding: 1%;
-    border-radius: 15%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     
 }
 
@@ -120,7 +144,7 @@ body{
     text-decoration: none;
 }
 
-.__topNavMenu__ #__menu__ #__menuLoginItem__{
+.__topNavMenu__ #__menu__ #__menuLoginItem__ .__menuItemIcon__{
     width: 16px;
     height: 16px;
     margin-right: 4px;
@@ -502,6 +526,12 @@ body{
     overflow: hidden;
 }
 
+.__popularFictionSectionContainer__ .__top3PopularFictionSynopsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .__popularFictionSectionContainer__ .__top3PopularFictionSynopsis::after {
     content: "";
     position: absolute;
@@ -810,6 +840,13 @@ body{
     margin: auto;
 
 }
+
+
+#__websiteLogoContainer__ .__illusiaLogo__{
+    color: var(--dark-theme-text-color);
+    font-family: Sedgwick Ave Display;
+}
+
 
 
 #__footerSections__{
